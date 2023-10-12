@@ -14,7 +14,7 @@ function App() {
     var alo = value[0];
     var aid = alo.value;
     bye.push(aid);
-    alo.value = "";
+    alo.value = ""
 
     await setcart();
   }

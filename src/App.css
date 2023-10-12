@@ -23,7 +23,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+body{background-color: #F8F8FF;}
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+.container{background-color: #ECEDF6;
+  width: 750px;
+  min-height: 100px;
+  margin-left:24.9rem;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  margin-top: 50px
+;}
+
+.task{display:inline-flex ;
+background-color: #FFFFFF;
+width:700px;
+height:75px;
+margin:20px 0px 0px 0;
+border-radius: 10px}
+
+.delbtn{position: relative;
+left: 20px;
+top:25px;
+height:25px}
+
+
+
+
+.checked{text-decoration: line-through;}
+.value{
+width: 600px;
+text-align:justify;
+position: relative;
+top:9px}
+
+.checkbox{width:20px;
+margin:0px 10px 0px 10px}
+.textval{height: 31px;
+width:600px}
+
+.addtaskbtn{background-color:#646FF0;
+color:white;
+height:36px}
